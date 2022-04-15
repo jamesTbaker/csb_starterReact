@@ -33,39 +33,39 @@ const GlobalStyle = createGlobalStyle`
 		-moz-osx-font-smoothing: grayscale;
 		-webkit-font-smoothing: antialiased;
 		color: ${color({
-			kind: 'Neutral',
-			tone: 'Finch',
-			level: 4,
-			format: 'string',
+			'kind': 'Neutral',
+			'tone': 'Finch',
+			'level': 4,
+			'format': 'string',
 		})};
 		background-color: ${color({
-			kind: 'Neutral',
-			tone: 'Finch',
-			level: 39,
-			format: 'string',
+			'kind': 'Neutral',
+			'tone': 'Finch',
+			'level': 39,
+			'format': 'string',
 		})};
-		${deviceWidthQuery.only({ width: 's' })} {
+		${deviceWidthQuery.only({ 'width': 's' })} {
 			${typeStyle({
-				deviceWidth: 's',
-				size: 's',
-				weight: 'regular',
-				usage: 'body',
+				'deviceWidth': 's',
+				'size': 's',
+				'weight': 'regular',
+				'usage': 'body',
 			})}
 		}
-		${deviceWidthQuery.only({ width: 'm' })} {
+		${deviceWidthQuery.only({ 'width': 'm' })} {
 			${typeStyle({
-				deviceWidth: 'm',
-				size: 's',
-				weight: 'regular',
-				usage: 'body',
+				'deviceWidth': 'm',
+				'size': 's',
+				'weight': 'regular',
+				'usage': 'body',
 			})}
 		}
-		${deviceWidthQuery.only({ width: 'l' })} {
+		${deviceWidthQuery.only({ 'width': 'l' })} {
 			${typeStyle({
-				deviceWidth: 'l',
-				size: 's',
-				weight: 'regular',
-				usage: 'body',
+				'deviceWidth': 'l',
+				'size': 's',
+				'weight': 'regular',
+				'usage': 'body',
 			})}
 		}
 
@@ -77,183 +77,183 @@ const GlobalStyle = createGlobalStyle`
 	}
 	h1 {
 		color: ${color({
-			kind: 'Neutral',
-			tone: 'Finch',
-			level: 7,
-			format: 'string',
+			'kind': 'Neutral',
+			'tone': 'Finch',
+			'level': 7,
+			'format': 'string',
 		})};
-		${deviceWidthQuery.only({ width: 's' })} {
+		${deviceWidthQuery.only({ 'width': 's' })} {
 			${typeStyle({
-				deviceWidth: 's',
-				size: '2xl',
-				weight: 'bold',
-				usage: 'display',
-				spacedTopAndBottom: true,
+				'deviceWidth': 's',
+				'size': '2xl',
+				'weight': 'bold',
+				'usage': 'display',
+				'spacedTopAndBottom': true,
 			})}
 		}
-		${deviceWidthQuery.only({ width: 'm' })} {
+		${deviceWidthQuery.only({ 'width': 'm' })} {
 			${typeStyle({
-				deviceWidth: 'm',
-				size: '2xl',
-				weight: 'bold',
-				usage: 'display',
-				spacedTopAndBottom: true,
+				'deviceWidth': 'm',
+				'size': '2xl',
+				'weight': 'bold',
+				'usage': 'display',
+				'spacedTopAndBottom': true,
 			})}
 		}
-		${deviceWidthQuery.only({ width: 'l' })} {
+		${deviceWidthQuery.only({ 'width': 'l' })} {
 			${typeStyle({
-				deviceWidth: 'l',
-				size: '2xl',
-				weight: 'bold',
-				usage: 'display',
-				spacedTopAndBottom: true,
+				'deviceWidth': 'l',
+				'size': '2xl',
+				'weight': 'bold',
+				'usage': 'display',
+				'spacedTopAndBottom': true,
 			})}
 		}
 	}
 	h2 {
-		${deviceWidthQuery.only({ width: 's' })} {
+		${deviceWidthQuery.only({ 'width': 's' })} {
 			${typeStyle({
-				deviceWidth: 's',
-				size: '1xl',
-				weight: 'bold',
-				usage: 'display',
-				spacedTopAndBottom: true,
+				'deviceWidth': 's',
+				'size': '1xl',
+				'weight': 'bold',
+				'usage': 'display',
+				'spacedTopAndBottom': true,
 			})}
 		}
-		${deviceWidthQuery.only({ width: 'm' })} {
+		${deviceWidthQuery.only({ 'width': 'm' })} {
 			${typeStyle({
-				deviceWidth: 'm',
-				size: '1xl',
-				weight: 'bold',
-				usage: 'display',
-				spacedTopAndBottom: true,
+				'deviceWidth': 'm',
+				'size': '1xl',
+				'weight': 'bold',
+				'usage': 'display',
+				'spacedTopAndBottom': true,
 			})}
 		}
-		${deviceWidthQuery.only({ width: 'l' })} {
+		${deviceWidthQuery.only({ 'width': 'l' })} {
 			${typeStyle({
-				deviceWidth: 'l',
-				size: '1xl',
-				weight: 'bold',
-				usage: 'display',
-				spacedTopAndBottom: true,
+				'deviceWidth': 'l',
+				'size': '1xl',
+				'weight': 'bold',
+				'usage': 'display',
+				'spacedTopAndBottom': true,
 			})}
 		}
 	}
 	h3 {
-		${deviceWidthQuery.only({ width: 's' })} {
+		${deviceWidthQuery.only({ 'width': 's' })} {
 			${typeStyle({
-				deviceWidth: 's',
-				size: 'l',
-				weight: 'bold',
-				usage: 'display',
-				spacedTopAndBottom: true,
+				'deviceWidth': 's',
+				'size': 'l',
+				'weight': 'bold',
+				'usage': 'display',
+				'spacedTopAndBottom': true,
 			})}
 		}
-		${deviceWidthQuery.only({ width: 'm' })} {
+		${deviceWidthQuery.only({ 'width': 'm' })} {
 			${typeStyle({
-				deviceWidth: 'm',
-				size: 'l',
-				weight: 'bold',
-				usage: 'display',
-				spacedTopAndBottom: true,
+				'deviceWidth': 'm',
+				'size': 'l',
+				'weight': 'bold',
+				'usage': 'display',
+				'spacedTopAndBottom': true,
 			})}
 		}
-		${deviceWidthQuery.only({ width: 'l' })} {
+		${deviceWidthQuery.only({ 'width': 'l' })} {
 			${typeStyle({
-				deviceWidth: 'l',
-				size: 'l',
-				weight: 'bold',
-				usage: 'display',
-				spacedTopAndBottom: true,
+				'deviceWidth': 'l',
+				'size': 'l',
+				'weight': 'bold',
+				'usage': 'display',
+				'spacedTopAndBottom': true,
 			})}
 		}
 	}
 	h4 {
-		${deviceWidthQuery.only({ width: 's' })} {
+		${deviceWidthQuery.only({ 'width': 's' })} {
 			${typeStyle({
-				deviceWidth: 's',
-				size: 'm',
-				weight: 'bold',
-				usage: 'display',
-				spacedTopAndBottom: true,
+				'deviceWidth': 's',
+				'size': 'm',
+				'weight': 'bold',
+				'usage': 'display',
+				'spacedTopAndBottom': true,
 			})}
 		}
-		${deviceWidthQuery.only({ width: 'm' })} {
+		${deviceWidthQuery.only({ 'width': 'm' })} {
 			${typeStyle({
-				deviceWidth: 'm',
-				size: 'm',
-				weight: 'bold',
-				usage: 'display',
-				spacedTopAndBottom: true,
+				'deviceWidth': 'm',
+				'size': 'm',
+				'weight': 'bold',
+				'usage': 'display',
+				'spacedTopAndBottom': true,
 			})}
 		}
-		${deviceWidthQuery.only({ width: 'l' })} {
+		${deviceWidthQuery.only({ 'width': 'l' })} {
 			${typeStyle({
-				deviceWidth: 'l',
-				size: 'm',
-				weight: 'bold',
-				usage: 'display',
-				spacedTopAndBottom: true,
+				'deviceWidth': 'l',
+				'size': 'm',
+				'weight': 'bold',
+				'usage': 'display',
+				'spacedTopAndBottom': true,
 			})}
 		}
 	}
 	h5 {
-		${deviceWidthQuery.only({ width: 's' })} {
+		${deviceWidthQuery.only({ 'width': 's' })} {
 			${typeStyle({
-				deviceWidth: 's',
-				size: 's',
-				weight: 'bold',
-				usage: 'display',
-				spacedTopAndBottom: true,
+				'deviceWidth': 's',
+				'size': 's',
+				'weight': 'bold',
+				'usage': 'display',
+				'spacedTopAndBottom': true,
 			})}
 		}
-		${deviceWidthQuery.only({ width: 'm' })} {
+		${deviceWidthQuery.only({ 'width': 'm' })} {
 			${typeStyle({
-				deviceWidth: 'm',
-				size: 's',
-				weight: 'bold',
-				usage: 'display',
-				spacedTopAndBottom: true,
+				'deviceWidth': 'm',
+				'size': 's',
+				'weight': 'bold',
+				'usage': 'display',
+				'spacedTopAndBottom': true,
 			})}
 		}
-		${deviceWidthQuery.only({ width: 'l' })} {
+		${deviceWidthQuery.only({ 'width': 'l' })} {
 			${typeStyle({
-				deviceWidth: 'l',
-				size: 's',
-				weight: 'bold',
-				usage: 'display',
-				spacedTopAndBottom: true,
+				'deviceWidth': 'l',
+				'size': 's',
+				'weight': 'bold',
+				'usage': 'display',
+				'spacedTopAndBottom': true,
 			})}
 		}
 	}
 	p, ul, ol {
 		margin: 0;
 		padding: 0;
-		${deviceWidthQuery.only({ width: 's' })} {
+		${deviceWidthQuery.only({ 'width': 's' })} {
 			${typeStyle({
-				deviceWidth: 's',
-				size: 's',
-				weight: 'regular',
-				usage: 'body',
-				spacedBottom: true,
+				'deviceWidth': 's',
+				'size': 's',
+				'weight': 'regular',
+				'usage': 'body',
+				'spacedBottom': true,
 			})}
 		}
-		${deviceWidthQuery.only({ width: 'm' })} {
+		${deviceWidthQuery.only({ 'width': 'm' })} {
 			${typeStyle({
-				deviceWidth: 'm',
-				size: 's',
-				weight: 'regular',
-				usage: 'body',
-				spacedBottom: true,
+				'deviceWidth': 'm',
+				'size': 's',
+				'weight': 'regular',
+				'usage': 'body',
+				'spacedBottom': true,
 			})}
 		}
-		${deviceWidthQuery.only({ width: 'l' })} {
+		${deviceWidthQuery.only({ 'width': 'l' })} {
 			${typeStyle({
-				deviceWidth: 'l',
-				size: 's',
-				weight: 'regular',
-				usage: 'body',
-				spacedBottom: true,
+				'deviceWidth': 'l',
+				'size': 's',
+				'weight': 'regular',
+				'usage': 'body',
+				'spacedBottom': true,
 			})}
 		}
 	}
@@ -275,9 +275,9 @@ const GlobalStyle = createGlobalStyle`
 	}
 	li::marker {
 		color: ${color({
-			kind: 'Neutral',
-			tone: 'Finch',
-			level: 17,
+			'kind': 'Neutral',
+			'tone': 'Finch',
+			'level': 17,
 		})};
 	}
 	ol li::marker {
@@ -285,11 +285,11 @@ const GlobalStyle = createGlobalStyle`
 	}
 	b,
 	strong {
-		font-weight: 560;
+		font-'weight': 560;
 		color: ${color({
-			kind: 'Neutral',
-			tone: 'Base',
-			level: 1,
+			'kind': 'Neutral',
+			'tone': 'Base',
+			'level': 1,
 		})};
 	}
 	i,
@@ -297,37 +297,37 @@ const GlobalStyle = createGlobalStyle`
 	cite {
 		font-style: italic;
 		color: ${color({
-			kind: 'Neutral',
-			tone: 'Base',
-			level: 1,
+			'kind': 'Neutral',
+			'tone': 'Base',
+			'level': 1,
 		})};
 	}
 	small {
-		${deviceWidthQuery.only({ width: 's' })} {
+		${deviceWidthQuery.only({ 'width': 's' })} {
 			${typeStyle({
-				deviceWidth: 's',
-				size: '2xs',
-				weight: 'regular',
-				usage: 'body',
-				spacedBottom: true,
+				'deviceWidth': 's',
+				'size': '2xs',
+				'weight': 'regular',
+				'usage': 'body',
+				'spacedBottom': true,
 			})}
 		}
-		${deviceWidthQuery.only({ width: 'm' })} {
+		${deviceWidthQuery.only({ 'width': 'm' })} {
 			${typeStyle({
-				deviceWidth: 'm',
-				size: '2xs',
-				weight: 'regular',
-				usage: 'body',
-				spacedBottom: true,
+				'deviceWidth': 'm',
+				'size': '2xs',
+				'weight': 'regular',
+				'usage': 'body',
+				'spacedBottom': true,
 			})}
 		}
-		${deviceWidthQuery.only({ width: 'l' })} {
+		${deviceWidthQuery.only({ 'width': 'l' })} {
 			${typeStyle({
-				deviceWidth: 'l',
-				size: '2xs',
-				weight: 'regular',
-				usage: 'body',
-				spacedBottom: true,
+				'deviceWidth': 'l',
+				'size': '2xs',
+				'weight': 'regular',
+				'usage': 'body',
+				'spacedBottom': true,
 			})}
 		}
 	}
@@ -335,23 +335,23 @@ const GlobalStyle = createGlobalStyle`
 	a.running-text:visited {
 		text-decoration: none;
 		color: ${color({
-			kind: 'Neutral',
-			tone: 'Finch',
-			level: 1,
-			format: 'string',
+			'kind': 'Neutral',
+			'tone': 'Finch',
+			'level': 1,
+			'format': 'string',
 		})};
 		background-image: linear-gradient(
 			${color({
-				kind: 'Neutral',
-				tone: 'Finch',
-				level: 31,
-				format: 'string',
+				'kind': 'Neutral',
+				'tone': 'Finch',
+				'level': 31,
+				'format': 'string',
 			})} 50%,
 			${color({
-				kind: 'Brand',
-				tone: 'Peony',
-				level: 3,
-				format: 'string',
+				'kind': 'Brand',
+				'tone': 'Peony',
+				'level': 3,
+				'format': 'string',
 			})} 50%
 		);
 		background-size: auto 200%;
@@ -359,10 +359,10 @@ const GlobalStyle = createGlobalStyle`
 		transition: all 250ms ease;
 		&:hover {
 			color: ${color({
-				kind: 'Neutral',
-				tone: 'Finch',
-				level: 41,
-				format: 'string',
+				'kind': 'Neutral',
+				'tone': 'Finch',
+				'level': 41,
+				'format': 'string',
 			})};
 			background-position-y: 100%;
 			border-radius: .25rem;
@@ -373,15 +373,15 @@ const GlobalStyle = createGlobalStyle`
 			margin: 0 .25rem;
 			border-radius: .25rem;
 			box-shadow: 0 0 0 .25rem ${color({
-				kind: 'Neutral',
-				tone: 'Finch',
-				level: 41,
-				format: 'string',
+				'kind': 'Neutral',
+				'tone': 'Finch',
+				'level': 41,
+				'format': 'string',
 			})}, 0 0 0 .5rem ${color({
-	kind: 'Accent',
-	tone: 'Finch',
-	level: 1,
-	format: 'string',
+	'kind': 'Accent',
+	'tone': 'Finch',
+	'level': 1,
+	'format': 'string',
 })};
 		}
 	}
