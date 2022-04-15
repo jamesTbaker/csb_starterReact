@@ -1,2 +1,4 @@
-# csb_starterReact_csb
-Created with CodeSandbox
+# CSB Starter - React
+
+originating from CSB
+m-csb-1
